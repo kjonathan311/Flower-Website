@@ -1,0 +1,126 @@
+body{
+    min-height: 90vh;
+}
+
+#nav{
+    border-bottom: solid black 1px;
+}
+#banner1{
+ height: 500px; 
+ background-image:url("./webpage_asset/banner1.jpg") ;
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+#banner2{
+ height: 500px; 
+ background-image:url("./webpage_asset/banner2.jpg") ;
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+#banner_body{
+  padding-top: 200px;
+  padding-left: 30px;
+}
+.list{
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+.title{
+  padding-left: 10px;
+  padding-top: 20px;
+}
+a{
+    color: black;
+}
+
+.Ccard{
+  width: 360px;
+  color: black;
+  float: left;
+  margin-right: 72px;
+  margin-bottom: 20px;
+}
+.image{
+    width: 360px;
+    height: 514px;
+    background-color: lightgray;
+    margin-bottom: 10px;
+}
+.image img{
+    width:100%;
+    height: 100%;
+    transition: 0.2s;
+}
+.image img:hover{
+    transform: scale(1.05);
+}
+
+div.sub form input{
+    width: 300px;
+}
+
+.sub{
+    padding: 10px 0;
+}
+input[type=submit]{
+    width: 200px;
+}
+a:link {
+    text-decoration: none;
+}
+.cb{
+    clear: both;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    opacity: 1;
+}
+
+nav ul li button{
+    padding: 0 30px;
+    color: gray;
+}
+
+nav ul li button:hover{
+    color: black;
+}
+
+ul button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: white;
+}
+
+button a{
+    background-color: transparent;
+}
+
+#footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.cross{
+    margin-left: 235px;
+    margin-top: -30px;
+    font-weight: bold;
+    position:absolute;
+    right:40;
+    bottom:9;
+}
+
+.cross:hover{
+    cursor: pointer;
+    color: gray;
+}
+
+#totalcart{
+    border-radius: 50%;
+    background-color: darkgray;
+    color: white;
+    text-align: center;
+    width: 24px;
+}

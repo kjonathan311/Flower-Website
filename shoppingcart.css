@@ -1,0 +1,27 @@
+.item{
+    width: 100%;
+    height: 150px;
+    margin-bottom: 10px;
+}
+.shopP{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+.shopS{
+    width: 70%;
+    height: 100%;
+    padding: 20px;
+    float: left;
+}
+.shopP img{
+    width: 100%;
+    height: 100%;
+}
+#cancel{
+    float:right;   
+}
+#cancel:hover{
+    cursor: pointer;
+    color:grey;
+}
